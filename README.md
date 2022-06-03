@@ -1,6 +1,6 @@
 
 
-# MusicMixer
+# Save your souls Website 
 Relaxing Music Mixer made by Maria Shevchenko and Zainab Hussain
 
 <snippet>
