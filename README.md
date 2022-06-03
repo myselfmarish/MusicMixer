@@ -1,4 +1,4 @@
-# Meditadion Website
+# Save Your Souls website
 *Relaxing Music Mixer made by Maria Shevchenko and Zainab Hussain*
 
 This Relaxing Music Mixer will help you to have a bit of rest from all of your duties. 
