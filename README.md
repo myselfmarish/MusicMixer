@@ -1,8 +1,7 @@
 # MusicMixer
 *Relaxing Music Mixer made by Maria Shevchenko and Zainab Hussain*
 
-
-####This Relaxing Music Mixer will help you to have a bit of rest from all of your duties. 
+This Relaxing Music Mixer will help you to have a bit of rest from all of your duties. 
 
 The RMM is an online background noise generator designed to help you relax, focus, and tune out unpleasant sounds from your environment.
 
