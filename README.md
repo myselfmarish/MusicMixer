@@ -7,19 +7,12 @@ Relaxing Music Mixer made by Maria Shevchenko and Zainab Hussain
   <content><![CDATA[
 # ${1:Music Mixer}
 
-We are tasked with the creation fo creating an interactive website that load audio clips to create a dynamic audio experience. Additionally, there will be a trigger animation and a compiled audio track, incredibox.com is an example of this. 
+We are tasked with creating an interactive website that load audio clips to create a dynamic audio experience. Additionally, there will be a trigger animation and a compiled audio track, incredibox.com is an example of this. 
 
 As a team, we have decided to create a website that offers meditation/ soothing audio, that can be personalized. We live in a high stress, busy environment with the rapid pace of technology, news and life. This website can offer meditators, a personalized experience when its comes to their audio choice. Wether its' yoga, mindfulness or studying to soothing sounds. 
 
 
 
-## Contributing
-
-1. Created starting point
-2. Updated Readme.File
-3. Created a developer branch, with project folder structure.
-4. Added some codes learned from week 2
-5. Added the svg files of images created by designer Maria. 
 
 
 ## License
