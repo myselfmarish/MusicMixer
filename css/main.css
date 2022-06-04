@@ -1,56 +1,26 @@
-* {
-    box-sizing: border-box;
-}
-body, html {
-    height: 100%;
-    margin: 0;
-    font-family: 'Courier New', monospace;
-}
-#backgroundImage{
-    filter: blur(4px);
-    -webkit-filter: blur(4px);
-    height: 100%;
-    position: absolute;
-    z-index: -99;
-}
-#backgroundImage img{
-    width: 100%;
-}
-#content{
+.hidden {display: none; color: black;}
+
+
+
+.main-heading {
+    color: blue; 
+    cursor: pointer;
     text-align: center;
-}
-.icon{
-    display: inline-block;
-}
-.icon > img{
-    width: 200px;
-    height: 200px;
-    margin: 20px;
+
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
 }
 
-.icon > img:hover{
-    filter: invert(1);
-}
-h1{
-    text-align: center;
-    color: white;
+/* set up the grid */
+/* COMMAND + Forward Slash = css comment shortcut */
+
+#svg-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
 }
 
-nav{
-    text-align: end;
-}
-ul{
-    list-style: none;
-    margin: 50px 0;
-}
-li{
-    display: inline-block;
-    font-size: 20px;
-}
-a{
-    text-decoration:none;
-    color: black;
-}
-a:hover{
-    color: white;
-}
+.container { display: flex; }
+.container img { width: 100%; }
+.contianer svg { width: 100%;}
