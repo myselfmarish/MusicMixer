@@ -22,7 +22,7 @@ body, html {
 .icon{
     display: inline-block;
 }
-.icon > img{
+.icon > img, .drop-zone {
     width: 200px;
     height: 200px;
     margin: 20px;
@@ -53,4 +53,13 @@ a{
 }
 a:hover{
     color: white;
+}
+
+.drop-zone {
+  display: inline-block;
+  text-align: center;
+  border: medium solid #333;
+  background-color: #000;
+  color: inherit;
+	overflow: hidden;
 }

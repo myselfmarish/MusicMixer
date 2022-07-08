@@ -6,28 +6,46 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<nav>
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-</nav>
+  <header>
+    <nav>
+      <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 <!--Blurred background through css filter-->
 <div id="backgroundImage"><img src="media/images/background.jpg" alt="backgroundBlurred"></div>
-<div id="content">
-    <h1>Save your souls sounds</h1>
-    <div class="icon"><img src="media/images/bird.svg" alt="bird" id="bird"></div>
-    <div class="icon"><img src="media/images/coffeeshop.svg" alt="coffee" id="coffee"></div>
-    <div class="icon"><img src="media/images/fire.svg" alt="fire" id="fire"></div>
-    <div class="icon"><img src="media/images/grass.svg" alt="grass"   id="grass"></div>
-    <div class="icon"><img src="media/images/rain.svg" alt="rain" id="rain"></div>
-    <div class="icon"><img src="media/images/thunder.svg" alt="thunder" id="thunder"></div>
-    <div class="icon"><img src="media/images/waterDrop.svg" alt="waterDrop"   id="waterDrop"></div>
-    <div class="icon"><img src="media/images/wave.svg" alt="wave" id="wave"></div>
-    <div class="icon"><img src="media/images/whiteNoise.svg" alt="whiteNoise" id="whiteNoise"></div>
-    <div class="icon"><img src="media/images/wind.svg" alt="wind" id="wind"></div>
+  <div id="content">
+      <h1>Save your souls sounds</h1>
+        <section id="sound-board">
+          <!--These are the draggable pieces -->
+          <div class="sound-pieces">
+            <div class="icon"><img draggable src="media/images/bird.svg" alt="bird" id="bird"></div>
+            <div class="icon"><img draggable src="media/images/coffeeshop.svg" alt="coffee" id="coffee"></div>
+            <div class="icon"><img draggable src="media/images/fire.svg" alt="fire" id="fire"></div>
+            <div class="icon"><img draggable src="media/images/grass.svg" alt="grass"   id="grass"></div>
+            <div class="icon"><img draggable src="media/images/rain.svg" alt="rain" id="rain"></div>
+            <div class="icon"><img draggable src="media/images/thunder.svg" alt="thunder" id="thunder"></div>
+            <div class="icon"><img draggable src="media/images/waterDrop.svg" alt="waterDrop"   id="waterDrop"></div>
+            <div class="icon"><img draggable src="media/images/wave.svg" alt="wave" id="wave"></div>
+            <div class="icon"><img draggable src="media/images/whiteNoise.svg" alt="whiteNoise" id="whiteNoise"></div>
+            <div class="icon"><img draggable src="media/images/wind.svg" alt="wind" id="wind"></div>
+          </div>
+
+          <!--we want to drop the draggable pieces here -->
+          <div class="music-board">
+            <div class="drop-zone"></div>
+            <div class="drop-zone"></div>
+            <div class="drop-zone"></div>
+            <div class="drop-zone"></div>
+            <div class="drop-zone"></div>
+          </div>
+      </section>
+    </div>
 </div>
+
 <footer></footer>
 <script src="js/main.js"></script>
 </body>
