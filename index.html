@@ -6,15 +6,6 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 <!--Blurred background through css filter-->
 <div id="backgroundImage"><img src="media/images/background.jpg" alt="backgroundBlurred"></div>
   <div id="content">
@@ -36,13 +27,18 @@
 
           <!--we want to drop the draggable pieces here -->
           <div class="music-board">
-            <div class="drop-zone"></div>
-            <div class="drop-zone"></div>
-            <div class="drop-zone"></div>
-            <div class="drop-zone"></div>
-            <div class="drop-zone"></div>
+			<div class="drop-zone"><input class="volume-control" type="range" min="0" max="100" step="1"></input></div>
+			<div class="drop-zone"><input class="volume-control" type="range" min="0" max="100" step="1"></input></div>
+			<div class="drop-zone"><input class="volume-control" type="range" min="0" max="100" step="1"></input></div>
+			<div class="drop-zone"><input class="volume-control" type="range" min="0" max="100" step="1"></input></div>
+			<div class="drop-zone"><input class="volume-control" type="range" min="0" max="100" step="1"></input></div>
           </div>
-      </section>
+		</section>
+		  <section class="audio-controls">
+		  <button id="play-button" class="button">PLAY</button>
+		  <button id="stop-button" class="button">STOP</button>
+		  <button id="reset-button" class="button">RESET</button>
+		</section>
     </div>
 </div>
 
