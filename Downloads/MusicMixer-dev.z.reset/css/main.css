@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Courier New', monospace;
+}
+#backgroundImage{
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    height: 100%;
+    position: absolute;
+    z-index: -99;
+}
+#backgroundImage img{
+    width: 100%;
+}
+
+.home {
+    float: left;
+}
+
+.contact {
+    float: right;
+}
+.navigation{
+    list-style: none;
+    margin: 15px 0;
+    text-align: center;
+    padding-right: 40px;
+}
+.navigation li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#content{
+    text-align: center;
+}
+.icon{
+    display: inline-block;
+}
+.icon > img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.drop-zone {
+	width: 200px;
+    height: 230px;
+    margin: 20px;
+}
+
+.icon > img:hover{
+    filter: invert(1);
+}
+h1{
+    text-align: center;
+    color: white;
+}
+
+nav{
+    text-align: end;
+}
+
+li{
+    display: inline-block;
+    font-size: 20px;
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+a:hover{
+    color: white;
+}
+
+.drop-zone {
+    display: inline-block;
+    text-align: center;
+    border: medium solid #fff;
+    color: inherit;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.drop-zone img{
+    display: block;
+}
+.volume-control{
+    position: absolute;
+    margin: 230px -65px;
+}
+#sound-board{
+    margin-bottom: 80px;
+}
+
+.button {
+    margin-left: 82px;
+    margin-right: 82px;
+    align-items: center;
+    appearance: none;
+    background: none;
+    border: 1px solid white;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    width: 15%;
+  }
+  
+  .button:focus {
+    box-shadow: black;
+  }
+  
+  .button:hover {
+    transform: translateY(-2px);
+  }
+  
+  .button:active {
+    box-shadow: black;
+    transform: translateY(2px);
+  }
+.sound-pieces{
+    margin-top: 50px;
+    padding: 0 10%;
+}
